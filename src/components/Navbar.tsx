@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import React from 'react';
 import profilePic from '../accets/profile.png'
 import Image from 'next/image'

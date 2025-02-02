@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 
 const ResumePage = () => {
   return (

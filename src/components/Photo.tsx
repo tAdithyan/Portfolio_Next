@@ -1,5 +1,7 @@
 
 'use client'
+/* eslint-disable react/no-unescaped-entities */
+
 import React from 'react'
 import Image from "next/image";
 import profileImage from '../accets/profile-photoaidcom-cropped.png'; // Corrected typo in the path
