@@ -1,5 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
 import {Button} from "@/components/ui/button";
 import { FaDownload } from "react-icons/fa6";
 import Socials from "@/components/Socials";

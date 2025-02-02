@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import path from 'path';
 import React from 'react'
 import { CiLinkedin, CiMail } from 'react-icons/ci';
 import { FaGithub } from 'react-icons/fa6';

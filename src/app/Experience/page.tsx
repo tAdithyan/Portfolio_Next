@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { Clock, Briefcase, GraduationCap, Award } from 'lucide-react';
+import { Clock, Briefcase, GraduationCap } from 'lucide-react';
 import Header from '@/components/Header';
 
 const ExperienceTimeline = () => {

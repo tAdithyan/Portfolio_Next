@@ -1,6 +1,7 @@
 import React from 'react';
 import profilePic from '../accets/profile.png'
 import Image from 'next/image'
+import Link from 'next/link';
 
 
 const ExactHeroSection = () => {
@@ -12,10 +13,10 @@ console.log(profilePic)
       <nav className="absolute top-0 w-full px-8 py-6">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex space-x-8">
-            <a href="/" className="text-amber-700 border-b border-amber-700">Home</a>
-            <a href="/about" className="text-white hover:text-gray-300">About</a>
-            <a href="/holdings" className="text-white hover:text-gray-300">Holdings</a>
-            <a href="/updates" className="text-white hover:text-gray-300">Updates</a>
+            <Link href="/" className="text-amber-700 border-b border-amber-700">Home</Link>
+            <Link href="/about" className="text-white hover:text-gray-300">About</Link>
+            <Link href="/holdings" className="text-white hover:text-gray-300">Holdings</Link>
+            <Link href="/updates" className="text-white hover:text-gray-300">Updates</Link>
           </div>
 
           <div className="absolute left-1/2 transform -translate-x-1/2">

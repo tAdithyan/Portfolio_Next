@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import {JetBrains_Mono} from "next/font/google";
 import "./globals.css";
-import { Weight } from "lucide-react";
-import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 

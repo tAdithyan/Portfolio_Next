@@ -3,14 +3,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 
-const ProjectCard = ({ title, description, tech, link, image, isEven }) => {
+const ProjectCard = ({ title, description, tech, link, isEven }) => {
   return (
     <div className={`flex ${isEven ? 'flex-row-reverse' : 'flex-row'} items-center space-x-8 mt-16`}>
       {/* Dot representing each project */}
       <div
         className={`w-16 h-16 rounded-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex justify-center items-center relative shadow-lg`}
       >
-        <div className="absolute top-0 left-0 w-4 h-4 bg-white rounded-full left-1/2 transform -translate-x-1/2"></div>
+        <div className="absolute top-0 w-4 h-4 bg-white rounded-full left-1/2 transform -translate-x-1/2"></div>
       </div>
 
       {/* Project Description */}
