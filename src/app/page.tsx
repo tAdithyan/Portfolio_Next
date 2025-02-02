@@ -15,7 +15,7 @@ return(
           <span className="text-xl">
             SoftWare Developer
           </span>
-          <h1 className="h1 mb-6">Hello I'm <br />
+          <h1 className="h1 mb-6">Hello I am <br />
             <span className="text-accent-Default">
 
               Adithyan
