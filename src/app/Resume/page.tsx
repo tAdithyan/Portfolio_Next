@@ -3,6 +3,7 @@ import React from 'react';
 
 const ResumePage = () => {
   return (
+    
     <><Header /><div className="min-h-screen bg-primary py-10">
       {/* Header Section */}
       <section className="text-center px-6 mb-10">

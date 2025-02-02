@@ -13,7 +13,7 @@ const Page = () => {
         if (!token) {
             router.push('/adminLogin') // Redirect if not authenticated
         }
-    }, [])
+    }, [router]) // Add 'router' as a dependency
 
     if (isAuthenticated === null) return null // Prevent rendering during initial check
 
@@ -21,3 +21,5 @@ const Page = () => {
 }
 
 export default Page
+
+

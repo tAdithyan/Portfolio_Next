@@ -1,3 +1,5 @@
+{/* eslint-disable-next-line react/no-unescaped-entities */}
+
 import {Button} from "@/components/ui/button";
 import { FaDownload } from "react-icons/fa6";
 import Socials from "@/components/Socials";
