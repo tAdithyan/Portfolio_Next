@@ -41,8 +41,9 @@ const AdminLogin = () => {
         // If login fails, show the error message
         setError(data.message || 'An error occurred');
       }
-    } catch (err) {
-      setError('Something went wrong, please try again');
+    } catch (error) {
+      setError('Something went wrong, please try again' );
+      console.log(error.message);
     } finally {
       setLoading(false);
     }
